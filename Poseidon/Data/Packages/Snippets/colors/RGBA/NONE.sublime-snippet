@@ -1,0 +1,6 @@
+<snippet>
+	<description>RGBA Color</description>
+	<content><![CDATA[-1,-1,-1,  1]]></content>
+	<tabTrigger>RGBA_NONE</tabTrigger>
+	<scope>source.sqf, source.ext, source.c,source.hpp,source.cpp,source.c++pp, source.c,source.hpp,source.cpp,source.c++</scope>
+</snippet>

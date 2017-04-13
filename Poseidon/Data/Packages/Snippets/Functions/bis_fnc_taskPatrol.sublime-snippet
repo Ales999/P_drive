@@ -1,0 +1,8 @@
+<snippet>
+	<description>Create a random patrol of several waypoints around a given position</description>
+	<content><![CDATA[
+[group ${1:unitName}, getPos ${1:unitName}, ${2:1000 /* radius */}] call bis_fnc_taskPatrol;
+]]></content>
+	<tabTrigger>taskPatrol</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

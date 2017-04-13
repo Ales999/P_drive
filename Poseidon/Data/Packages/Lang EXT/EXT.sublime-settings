@@ -1,0 +1,35 @@
+{
+	"extensions": ["ext"],
+	"translate_tabs_to_spaces": false,
+	"tab_size": 4,
+	"auto_indent": true,
+	"smart_indent": true,
+	"trim_automatic_white_space": true,
+	"indent_to_bracket": true,
+	"args":
+    {
+        "setting": "color_scheme",
+        "value": "Packages/Poseidon/bis default.tmTheme"
+    },
+	"debug": false,
+	"spell_check": false,
+	"line_numbers": true,
+	"gutter": true,
+	"draw_centered": false,
+	"scroll_past_end": true,
+	"word_wrap": true,
+	"auto_complete_size_limit": 4194304,
+	"auto_complete_delay": 50,
+	"auto_complete_with_fields": true,
+	"auto_save": true,
+	"draw_minimap_border": true,
+	"trim_trailing_white_space_on_save": true,
+	"ignored_packages": ["rpt", "C++", "cfg"],
+	"bold_folder_labels": true,
+	"highlight_modified_tabs": true,
+	"scroll_speed": 1.05,
+	"save_on_focus_lost": false,
+	"default_encoding": "UTF-8",
+	"font_options": [],
+	"remember_open_files": true
+}

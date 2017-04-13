@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<log4net><appender name="RollingFile" type="log4net.Appender.RollingFileAppender">
+    <file value="AddonBuilder.log" />
+    <appendToFile value="true" />
+    <maxSizeRollBackups value="2" />
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%level] %thread: %class.%method - %message%newline" />
+    </layout>
+  </appender>
+
+  <appender name="Console" type="log4net.Appender.ConsoleAppender">
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%level] %thread: %class.%method - %message%newline" />
+    </layout>
+  </appender>
+  
+  <appender name="StatusAppender" type="AddonBuilder.StatusAppender">
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%message%newline" />
+    </layout>
+  </appender>
+  
+  <root>
+    <level value="DEBUG" />
+    <appender-ref ref="RollingFile" />
+    <appender-ref ref="Console" />
+  </root>
+  <logger name="user" additivity="true">
+    <level value="INFO" />
+    <appender-ref ref="StatusAppender" />
+  </logger>
+
+</log4net>

@@ -1,0 +1,3 @@
+prefix=core\
+product=Arma 3
+version=98397

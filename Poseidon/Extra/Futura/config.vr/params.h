@@ -1,0 +1,1 @@
+configFile = "O:\Arma3\A3\Soft_F_Gamma\Hatchback_01\config.cpp";

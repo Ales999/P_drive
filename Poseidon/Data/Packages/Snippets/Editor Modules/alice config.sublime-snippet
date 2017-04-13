@@ -1,0 +1,15 @@
+<snippet>
+	<description>Config for ALICE Module</description>
+    <content><![CDATA[// distance of player(s) to town logic (in metres) in which system is starting to spawn civilians.
+BIS_alice_mainscope setvariable ["spawnDistance", 1000]; 
+BIS_alice_mainscope setvariable ["trafficDistance", 1000];
+// artificial coeficient to set how much will be town's respect decreased once some civilian is hit or killed. The higher the number is, the more is respect towards killer's faction decreased.
+BIS_alice_mainscope setvariable ["respectModifyCoef", .67];
+//value which is removed from town threat every 5 seconds (until threat reaches 0)
+BIS_alice_mainscope setvariable ["threatDecay", .033];
+//formula on which basis system calculates number of civilians for locations. %1 is number of buildings with door (memory points called "AIDoor1", "AIDoor2", ...) in 500 metres from location.
+BIS_alice_mainscope setvariable ["civilianCount","round (2 * (sqrt %1))"];
+]]></content>
+    <tabTrigger>alice</tabTrigger>
+    <scope>source.sqf</scope>
+</snippet>

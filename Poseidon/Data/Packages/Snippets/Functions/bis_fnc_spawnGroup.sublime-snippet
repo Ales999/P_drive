@@ -1,0 +1,7 @@
+<snippet>
+	<description>Function which handles the spawning of a dynamic group of characters. </description>
+	<content><![CDATA[[${1:/* group's starting position (Array) */}, ${2:/* group's Side (Side) */}, ${3:/* character details - Can be three different types: a list of character types (Array), an amount of characters to spawn (Number) or a CfgGroups entry (Config) */}] call BIS_fnc_spawnGroup;
+]]></content>
+	<tabTrigger>fnc</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

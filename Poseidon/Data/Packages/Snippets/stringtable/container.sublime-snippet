@@ -1,0 +1,9 @@
+<snippet>
+	<description>key</description>
+	<content><![CDATA[<container name="${1:ContainerName}">
+	<!-- ${2:DESCRIPTION OF MY CONTAINER}-->
+	${3:content goes here}
+</container>]]></content>
+	<tabTrigger>container</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

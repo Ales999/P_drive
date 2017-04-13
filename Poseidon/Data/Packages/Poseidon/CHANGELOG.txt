@@ -1,0 +1,665 @@
+============
+VERSION 0.994.199 @ 15 01 2017
+	Added: SQF definitions for Arma 3 1.65+
+	Fixed: The Params snippet had incorrect parameters
+
+============
+VERSION 0.994.198 @ 13 09 2016
+	Added: SQF definitions for Arma 3 1.65+
+
+============
+VERSION 0.993.193 @ 30 06 2016
+	Added: SQF definitions for Arma 3 1.63+
+
+============
+VERSION 0.992.187 @ 29 05 2016
+	Added: SQF definitions for Arma 3 1.60+
+	Added: Utility to refresh the installation (Preferences > Refresh registry)
+	Added: Utility to browse and edit the snippets (Preferences > Explore snippets)
+	Changed: The snippet Param now used the correct scripting command
+	Fixed: Default indentation for internal build
+	Fixed: RPT file type configuration
+	Fixed: Wrong indentation of some file types
+	Tweaked: Simplifies status bar
+	Tweaked: init process
+	Removed: The community update is now removed, awaiting to have a reliable update process
+
+============
+VERSION 0.99.1 @ 18 03 2016
+	Added: Updated commands (Arma3 157 134994)
+	Added: Updated vanilla functions (Arma3 157 134994)
+	Changed: a lot of minor and trivial improvements, even new bugs
+
+============
+VERSION 0.91.2 @ 03 11 2015
+	Added: Updated commands (Arma3 1.55 133085)
+	Added: Updated vanilla functions (Arma3 1.55 133085)
+	Added: New color scheme "RnD" #BlameSho
+	Changed: The background of the default theme is now slightly darker
+	Fixed: Support for nested arrays in .hpp files
+
+============
+VERSION 0.91.1 @ 11 09 2015
+Note: Fresh installation is NEEDED
+	Added: Updated commands (Arma3 147 131253)
+	Added: Updated vanilla functions (Arma3 147 131253)
+	Fixed: Pink touch on the config paths
+
+============
+VERSION 0.90.0 @ 17 08 2015
+Note: Fresh installation is NEEDED
+	Added: Updated commands (Arma3 147 131253)
+	Added: Updated vanilla functions (Arma3 147 131253)
+	Changed: When Arma 3 is started from Poseidon, -filePatching parameter is used
+	Changed: FSM Editor has been updated (version 1.3.3.17)
+	Changed: Margin left increased
+	Fixed: Wrong indentation behavior on SQF files
+	Fixed: Various minor issues
+	Removed: Installer (will be rewrite later)
+
+============
+VERSION 0.88.0 @ 22 06 2015
+Note: Fresh installation recommended
+	Added: New commands (Arma3 147 131253)
+	Added: New vanilla functions (Arma3 147 131253)
+	Changed: FSM Editor has been updated (version 1.3.3.14)
+	Changed: FSM Editor is now run from Arma 3 Tools if it's installed
+	Changed: TexView is now run from Arma 3 Tools if it's installed
+	Changed: It will first try to run Arma3Diag when using f8 from a SQM file
+	Fixed: Various issues with external programs
+
+============
+VERSION 0.87.1 @ 02 06 2015
+Note: Fresh installation recommended
+	Added: New commands (version 1.47.131000)
+	Added: New vanilla functions (version 1.47.131000)
+	Changed: exitWith has been added to the control structures instructions #BlameNelson :)
+	Changed: CPP, HPP, HXX, H are now opened as Arma config file
+	Tweaked: cleaned SQF definitions for FSM Editor
+	Fixed: Vanilla functions were not defined in the appropriate group
+
+============
+VERSION 0.86.1 @ 21 05 2015
+	Fixed: The SQF language definition was badly defined (some commands may have been added during the process)
+	Fixed: Fail-safe on SQF string definitions
+
+============
+VERSION 0.86 @ 19 05 2015
+	Added: Auto trim white space on save
+	Added: Arma 3 new commands (version 1.45.130806)
+	Added: Arma 3 new functions (version 1.45.130806)
+	Changed: jpg, png, tga, paa, pac are not considered as binary files, making them findable with a  search
+	Changed: Sidebar layout
+	Fixed: Some content was out of the sidebar
+	Tweaked: The setting dependencies have been cleaned up
+
+============
+VERSION 0.85.2 @ 28 04 2015
+	Added: Arma 3 new commands (version 1.43.130525)
+	Added: Arma 3 new functions (version 1.43.130525)
+	Changed: File headers (scripts and functions) now include properly the scriptName
+	Fixed: Issue with highlighting of Arma 3 functions
+	Fixed: The parameters were not read as expected (invalid config file)
+	Fixed: SQF Function header is now correct
+
+============
+VERSION 0.85.1 @ 19 03 2015
+	Added: Auto trim trailing whitespaces for config files
+	Changed: Auto indentation has been switched off for SQF files
+
+============
+VERSION 0.84.0 @ 18 03 2015
+	Added: new command usage in Arma 3 rev 129768
+	Added: Functions from Arma 3 rev 129768
+	Changed: Default tab size for SQF files is now 8 spaces
+	Changed: The snippets now use the full extended syntax
+	Changed: Some snippets have been reworked and fixed
+	Tweaked: Improved external dependencies
+
+============
+VERSION 0.82.3 @ 25 02 2015
+	Added: Arma 3 new commands (version 1.39.129031)
+	Added: Arma 3 new functions (version 1.39.129031)
+	Added: More config properties for Arma config files (sounds, physX)
+	Changed: Some minor edits in the menu
+	Removed: "Issue" and "Check" keywords are not highlighted anymore
+
+============
+VERSION 0.82.2 @ 06 02 2015
+	Added: some data have been move to "%userprofile%\Documents\Poseidon Tools\", called PTDocs
+	Added: Hot backup feature (ALT+SHIFT+B). It creats a copy of the current file into PTDocs\Exports\ (each backup is unique)
+	Added: Export to HTML (ALT+SHIFT+P). The exported file is stored into PTDocs\Exports
+	Added: Properties for Arma configs (Sea, weather, latest additions etc...)
+	Added: Arma 3 new commands (version 1.39.129031)
+	Added: Arma 3 new functions (version 1.39.129031)
+	Added: Placeholder for user defined snippets
+	Changed: Recent Projects menu now contains the 15 last opened projects
+	Changed: Default syntax for .hpp files is now "CPP Arma" (instead of "ext format")
+	Changed: Updated version of FSM editor
+	Changed: Updated TexView 2 compiler
+	Tweaked: Regulare expression used for Arma 3 Functions
+	Tweaked: Loading of some modules
+	Tweaked: Status bar informations
+	Fixed: Missing "Do" in the ForSpec snippet
+	Fixed: Some snippets had an incorrect format
+	Fixed: "Step" in the ForVar snippet
+	Fixed: Some snippets were available from wrong file-types (e.g. basic CfgSounds from config files)
+	Removed: Links to the french documentation (because it's not available anymore)
+
+============
+VERSION 0.80 - PE @  03 12 2014
+	Added: Config properties needed for animations
+	Added: Config properties needed for sounds
+	Added: Config properties required to implement the FFV feature
+	Added: Most of the properties needed for interfaces
+	Changed: "class" keyword is case sensitive and must be in lowercase
+	Changed: Scrollbar aspect
+	Changed: Scroll speed increased (+20%)
+	Changed: Binary files are now openned as Hexa file (temporarly)
+	Changed: Minimap, improved view of the current view
+	Changed: Status bar is more thin than before
+	Changed: Color of the inactives tabs
+	Fixed: typeOf was missing from the Arma 3 script commands
+
+============
+VERSION 0.78.7 - PE @  12 11 2014
+	Added: Ability to open Arma 3 log directory (Top menu >> Logs)
+	Added: Shortcut to open the current file into a new tab (ctrl+shift+c)
+	Fixed: Installer dependencies
+	Fixed: Bad definitions in SQF language configuration
+	Fixed: Installed version was incorrect
+	Fixed: Mikero tools were not working on some OS (with very specific conditions)
+	KNOWN ISSUES
+		The installer will mark the version to install to 0.78.6, just ignore it.
+
+0.78.1 => 0.78.6 - Release Candidates - Hot fixes
+
+============
+VERSION 0.78 - PE @  11 11 2014
+	Added: "CPP Arma" syntax checker, highlight missing token: {1,2,3,};
+	Added: mission config syntax checker, highlight missing token: {1,2,3,};
+	Added: GameType Sandbox
+	Added: A few mission config stuff
+	Added: Arma 3 new commands (version 1.35.128152)
+	Added: Arma 3 new functions (version 1.35.128152)
+	Changed: Updated dependencies & librairies
+	Changed: Issue highlighting must be in a comment to be handled
+	Fixed: Bad dependency for TM4_Indenter
+	Fixed: GameType (in mission config) was case sensitive
+	Fixed: Auto-completion for SQF files
+	Fixed: A load of stuff...
+
+============
+VERSION 0.74 - PE @ 13 10 2014
+	Changed: New script commands for Arma 3 1.33.127.690
+	Changed: New functions for Arma 3 1.33.127.690
+	Changed: Poseidon.dll methods
+	Changed: Recompiled structure files
+	Fixed: Auto-completion on SQF content
+
+============
+VERSION 0.72 - PE @ 22 08 2014
+	Added: Settings manager ("preferences" >> "Options")
+	Added: Community Tools Updater (0.14.10.0) ("preferences" >> "Options") (temporary menu location)
+	Added: Functions for latest Arma 3 (1.27.126.833)
+	Added: New commands for Arma 3 (1.27.126.833)
+	Added: Shortcut CTRL+F5 to open a CMD with file current directory as working dir (cd & pushd)
+	Added: Shortcut to run Arma 3 in "External programs/tools". Note: If the current file is a sqm, it will open the editor and load the mission, whatever the file path.
+	Changed: "Open CMD here" is not in its final version (Menu >> External programs)
+	Changed: Auto complete box is now shown after 50ms (+10)
+	Changed: Indent method for SQF files
+	Changed: _target, _name, _leader and _destination have been removed from magic variables, they can now be used with "Make private Statment (ctrl+e, ctrl+p)" (http://forums.bistudio.com/showthread.php?164908-Poseidon-advanced-text-editor-for-Scripts-amp-Configs&p=2730388&viewfull=1#post2730388)
+	Changed: Improved bracket highlighter (performances)
+	Changed: ...too many things to be listed :)
+	Changed: Location of snippets... to prepare the future :)
+	Fixed: Very low performances on very large file (20MB+)
+	Fixed: Low performances with XML Files
+	Fixed: restoreDefault could crash at the end of the process because it was searching for MacOX files
+	Fixed: respawnOnStart was not regognized by the ext parser (http://forums.bistudio.com/showthread.php?164908-Poseidon-advanced-text-editor-for-Scripts-amp-Configs&p=2730388&viewfull=1#post2730388)
+	Fixed: File stream was laggy because of a bad defined event handler (http://forums.bistudio.com/showthread.php?164908-Poseidon-advanced-text-editor-for-Scripts-amp-Configs&p=2729710&viewfull=1#post2729710)
+	Fixed: Poseidon installer was not working on some x86 workstation
+	Fixed: FSMEditor was not working on some x86 workstation
+	Fixed: Texview 2 was not working on some x86 workstation
+	Fixed: RestoreDefault was not working on some x86 workstation
+
+============
+VERSION 0.70.1449 - PE @ 11 07 2014
+	Added: Function to find all local variables in the selection and privatize them. (ctrl+e, ctrl+p)
+		Note: This ignores the "magic variables" (https://community.bistudio.com/wiki/Magic_Variables)
+	Added: <experimental> tm4_indenter, simple program to auto indent files (ctrl+e, ctrl+i)
+	Added: Command to indent the current file in mode Quick'n Dirty (ctrl+alt+e, ctrl+alt+i)
+	Added: Detection of uncomplete array (e.g. _array = [item2, item2, itemN, ];)
+	Added: //note,//todo,//check,//issue keywords are now supported in missionConfigFile and configFile
+	Added: New Commands for Arma 3 1.25.125903
+	Added: New Functions for Arma 3 1.25.125903
+	Added: Shortcut to convert indentation to TAB (ctrl+e, ctrl+tab)
+	Added: Shortcut to convert indentation to space (ctrl+e, ctrl+space)
+	Changed: Updated Command Palette (ctrl+shift+p)
+	Changed: When open a SQM with Arma 3, it will try to start it with arma3diag.exe first (will use arma3.exe if arma3diag fails)
+	Changed: Smallest text size is now 6 (was 8)
+	Changed: Icon for installer
+	Changed: Bracket highlighter, removed threshold
+	Fixed: Poseidon was unable to run Addon Builder (missing registry key from AB)
+	Fixed: Working directory of OpenCMD ("External tools" >> "Open CMD here") was wrong
+
+============
+VERSION 0.69.1430 - PE @ 20 06 2014
+	Added: New commands for Arma 3 1.23.125365
+	Added: New Functions for Arma 3 1.23.125365
+	Added: Shortcut to open Arma 3 Tools launcher (F7)
+	Added: Shortcut to open Mikero tools (ctrl+F7)
+	Added: Shortcut to open Poseidon's installer (shift+F7)
+	Added: Shortcut to open logs from Arma 3 Diagnostics Exe (https://community.bistudio.com/wiki/Arma_3_Diagnostics_Exe)
+	Added: Command from Arma 3 Diagnostics Exe (https://community.bistudio.com/wiki/Arma_3_Diagnostics_Exe)
+	Added: Native support of Mikero Tools (http://tom4897.info/projects/poseidon-tools/documentation/external-programs/)
+	Added: Snippets handle autocompletion
+	Added: Shortcut shift+tab to unindent the current line
+	Added: Animation when expanding or collapsing folders in the side bar
+	Changed: PBO and EBO files removed from "Goto Anything"
+	Changed: Scroll bars are now diplayed in overlay, sync with the minimap
+	Changed: stdout of Arma 3 Community Tools is now hidden
+	Changed: Scroll speed inscreased of 5%
+	Changed: Poseidon.dll for Arma 3 Community Tools 0.68+ (http://tom4897.info/?attachment_id=2290)
+	Changed: Fallback to UTF-8 when unable to determine file encoding
+	Changed: Bin file are displayed as it is (no more Hexa)
+	Changed: Default encoding changed from "ANY" to UTF-8
+	Changed: Line ending character used changed from "LF" to "CRLF" (system value)
+	Changed: decrease of 10 ms of the delay before displaying autocomplete window  (now 40ms)
+	Fixed: Anti-aliasing was wrong on some OS
+	Fixed: Various typo in core scripts
+	Fixed: Diag_* command group was missing from auto-completion
+	Fixed: Keyword highlighting of issue, todo, check, note were case sensitive (SQF)
+
+============
+VERSION 0.68.1315 - PE @ 03 06 2014
+	Fixed: Various errors on the installer
+	Fixed: Various errors on the shared library
+
+============
+VERSION 0.68.1306 - PE @ 02 06 2014
+	Added: Commands for Arma 3 1.21+ (some of these may not be yet available ingame)
+	Changed: Install.exe has been reworked for upcoming features
+	Improved: Shared library
+	Improved: "Arma 3 Community Tools" support
+	Improved: Bracket highlighter
+	Improved: Magic key (F8) command
+	Improved: Profile file
+	Fixed: File association
+	Fixed: "cache purge" was moving file to the recycle bin (yeah, one more time ^_^)
+	Fixed: When Poseidon was started with an file opening, time to time, it wasn't able to run an external process
+	FXIED: Some maths commands were displayed as error in SQF files
+	Fixed: scriptedFSM config for Arma 3
+	Fixed: log opening
+
+Known issues:
+	Update action won't work until version 0.70.X
+	restoreDefault can crash at the end of the process, ignore it, the job is done
+	Debug stdout is displayed by default
+
+============
+VERSION 0.67.1269 - PE @  05 2014
+	Added: Valve Data Format (.vdf) for BI games
+	Improved: SQF Syntax, Some syntax error like too many =, | etc...
+	Added: SQF Syntax, Hightlight of keywords Todo and Note
+	Improved: Support of batch scripts
+	Fixed: fsm editor, scriptedFSM for Arma 3
+	Fixed: GIT wasn't working
+	Fixed: SVN file operations were erroneous
+	Fixed: Various issues on the versioning support
+	Changed: Versioning support, actions won't appear the file opened is not in a repository
+	Added: Auto completion, Commands of Arma 3 (export from 1.21.124478) //TODO
+	Added: Auto completion, Function of Arma 3 (export from 1.21.124478) //TODO
+	Added: Install.exe performs a quick check of the installation
+	Added: Install.exe asks for closing Poseidon if it's running
+	Improved: Installation exe
+	Improved: RestoreDefault.exe
+	Fixed: restoreDefault was moving file to the recycle bin
+	Changed: All executables now share a dll (Poseidon.dll)
+	Fixed: File type association was erroneous on Win VISTA
+	Improved: fsmEditor.exe
+	Improved: TexView 2.exe
+	Changed: File and folder structure
+	Added: Shortcuts list (Help >> View Shortcuts)
+	Added: New option to "View" menu
+	Added: New option to "Preferences" menu
+	Restored: Ability to open / save with charset Central European (ISO 8859-2); used in Czeck republic
+	Added: Syntax highlighting for settings and keymap files of Posiedon Tools
+
+============
+VERSION 0.66.1128 - PE @  05 2014
+	Added: SVN / GIT Support (see shortcuts in Preferences)
+	Added: Oxygen² & Object Builder script are now read as SQF
+	Added: Poseidon now requires to run install.exe (root directory) in order to update its path and version
+	Added: Registry key >> "HKEY_CURRENT_USER\SOFTWARE\Bohemia Interactive\Poseidon Tools", "version"
+	Added: Registry key >> "HKEY_CURRENT_USER\SOFTWARE\Bohemia Interactive\Poseidon Tools", "path"
+	Added: Poseidon is able to open latest Bulldozer log
+	Added: Poseidon is able to open latest Arma 3 server log
+	Fixed: CMD layout
+	Fixed: "Open CMD here" (External programs) now sets the path correctly
+	Changed: "Preferences" is now available from the main menu
+	Changed: "resetSetting" not longer waits after user confirmation
+	Fixed: "resetSetting" now uses .Net framework 4 instead of 4.5
+	Changed: "resetSetting" was renanmed as "restoreDefault"
+	Fixed: When Poseidon was launched while opening a file, it wasn't able to open logs
+	Added: <experimental> User can open Arma 3 tools from the menu
+	Fixed: FileDiff was not working properly
+	Changed: XML syntax highlighter
+	Changed: RPT syntax highlighter (User log (bis_fnc_log) entries are now blue or green)
+	FXIED: Scope highlighter was not working properly with dark color scheme
+
+============
+VERSION 0.65.1004 - PE @ 29 04 2014
+	Changed: File association (now in Poseidon\Extra\FileAssoc.exe)
+	Changed: File type is now named BIStudio Script (was Arma File)
+	RMVED: Run_once folder
+	Fixed: the generation of the default session was faulty
+	Changed: Recent items are now split into "Open Recent File" and "Open Recent Folder"
+	Improved: Bracket highlighter
+	Fixed: the bracket highlighter was not working with large class (max is now 65536 characters within a single scope)
+	Added: Shortcut to Toggle high visibility of current scope (ALT+B)
+	Fixed: Time to time, Poseidon was not able to open SQM with Arma 3
+	Added: Auto completion, Commands for the latest version of Arma 3 (1.19.123773)
+	Added: Auto completion, Function for the latest version of Arma 3 (1.19.123771)
+	Changed: Scroll speed increased for SQF file type
+	Changed: Margin size for SQF file type
+	Changed: Debug script has been rewritten and renamed (_resetSettings in the root directory of Poseidon)
+	Added: Auto completion for cfg name (test) from sqf files (e.g. "CfgAmmo")
+	Improved: Magic key (F8) command has been reworked
+	Added: FSM Editor executable in the root directory of Poseidon
+	Added: TexView 2 executable in the root directory of Poseidon
+	Fixed: Some file type were not displayed in the project explorer
+	Changed: Main directory renamed from "Poseidon" to "Poseidon Tools"
+	Changed: Preference menu is now directly in the main menu
+	Changed: Menu, "Poseidon" was renamed to "Logs"
+	Added: "New view of this file" (clone view) is now available from file and tab context menu
+	Added: Shortcut for "clone view", right click into the file content then hit "e"
+Known issue:
+	fileassoc can be detected as a potential threat by some anti-virus. Just ignore it, this is just because it write in the Windows registry.
+
+============
+VERSION 0.64.787 - ANY VERSION @ 30 03 2014
+	Fixed: File association should now work
+
+============
+VERSION 0.64.781 - PE @ 27 03 2014
+	Added: Commands for Arma 3 version:  1.06, 1.08, 1.10, 1.14 (and 1.12, 1.16 (rev. 116294))
+	Added: Auto completion for bis_fnc_* (including Zeus DLC)
+	Added: Link to Zeus documentation (Curator) (Poseidon >> Other documentation >> Zeus Editing (Curator))
+	Added: Some content to \Docs & Licences folder
+	Improved: Ms Windows 8, Ms Windows 8.1 & Ms Windows 2012 R2 compatibility
+	Changed: "Compact syntax" for Snippets
+	Changed: Links for functions and modules documentation
+	Changed: You can now open one of the 20 last opened files (was 8 before)
+	Changed: You can now open one of the 10 last opened folders (was 8 before)
+	RMVED: Some unused charset
+	Changed: Background of BIS default color scheme
+	Changed: Bin directory is now \Data\Packages\Bin\
+	Changed: Now possible to go to the 20 last bookmarks through the menu (was 15 before)
+	Changed: Now possible to switch between the 10 last saved projects (was 5 before)
+	Improved: Ext support (mission config files)
+	Fixed: inheritance highlight in EXT and configs
+	Fixed: A lot of issues (I bet on new one too ^^)
+	Changed: Menu item Help > View Help (poseidon) now open the online documentation
+	Fixed: Preprocessor (#(.*)) highlight
+	Improved: I'm too lazy to list them all!
+
+============
+VERSION 0.63.610 - SE @ 28 10 2013
+NO MORE A BETA
+	Added: Diff system - http://poseidon.arma3.fr/documentation/file-diff/
+	Added: Diff syntax highlighter - http://poseidon.arma3.fr/documentation/file-diff/
+	Improved: Ext support (mission config files)
+	Improved: White color scheme
+	Fixed: CPP Arma: Comments - http://poseidon.arma3.fr/documentation/support-for-configs/
+
+
+============
+VERSION 0.62.583- PE @ 24 10 2013
+	Added: Layout: White color scheme
+	Added: Content: Arma 3 commands for version 1.05+
+	Added: Snippets: for XML Stringtables (containers and keys) triggered by "container" and "key"
+	Added: BIS_fnc_log entries are  highlighted (green background)
+	Improved: Performance: Combination of subpixel antialiasing and DirectWrite
+	Changed: Header snippet now includes scriptName https://community.bistudio.com/wiki/scriptName
+	Changed: Help >> "View help" file updated.
+	Changed: The default tab-size is back to 4 (It was an oversight after the font change from the 0.59)
+	Changed: RPT support: errors on entities are highlighted (red)
+	Changed: Folder structure is still changing :)
+	Fixed: F1 shortcut now works as it should (open Online RVengine documentation)
+	Fixed: Auto indent for XML Stringtables.
+	Fixed: Run with external wasn't working with "BIEDI" files. It now starts correctly Arma 3 and open the current biedi in the editor.
+	Fixed: Occasionally, poseidon was starting Arma 3 without "dev" and "@debug" mods.
+
+============
+VERSION 0.61.512- PE @ 14 10 2013
+	Added: Misc Tools -> Trim trailing white spaces
+	Added: colorization for Arma 3 1.04 commands (11oct)
+	Added: auto completion for Arma 3 1.04 commands (11oct)
+	Added: <EXPRIMENTAL> Bind F1 to display command documentation (same as ALT+E or ALT+F)
+	Added: Duplicate help links in help menu
+	Added: <EXPRIMENTAL> New support for Arma configs (you can back to the old one by switching the colorization to C++)
+	Changed: Menu group separators
+	Fixed: Open with external (F8) was not working on some computers
+	Fixed: Wrong reading of some projects
+	Fixed: White space in the menu, between External programs & Help
+	Fixed: A lot of bugs
+	Added: some other bugs!? :-)
+	RMVED: Save script files on lost focus
+
+============
+VERSION 0.60.326 - SE @ 08 10 2013
+	Fixed: External programs "Try to find best program" wasn't working with image & FSM files.
+
+============
+VERSION 0.59.325 @ 07 10 2013
+WARNING: A fresh install is highly recommended!
+	Fixed: Opening log require to have an opened and active file (no more the case)
+	Added: Reindentation tool (Misc Tools -> Auto indentation) - Be aware, this works well only with XML
+	Changed: Improved: Faster loading
+	Added: File assoc with XML since I think it's well supported
+	Changed: XML language, some keys were missing
+	Changed: Default Tab size is now 2 (to meet the new font requirement, 0.57)
+	Added: Select an entire line easily: Maintain a right click on the line and make a left click or make a triple left click
+	Added: Select a block easily: Maintain a right click on the line and make a double left click
+	Added: Tab context menu: Save file
+	Added: Shortcut to save all opened files: ctrl+alt+s
+	Added: Open a windows console in the containing folder of the current file (External programs -> Open cmd here)
+	Added: Ability to directly start Arma 3 when a sqm is opened (F8) (parameters = "-mod=@debug;dev" -window -noSplash -showScriptErrors "pathToSQMFile")
+	Fixed: Files header (triggered by header) , the filename is now quoted
+	Fixed: Assoc all with poseidon (Poseidon\run_once\assoc_all_with_poseidon)
+	Added: File encoding to the status bar (bottom), Status bar now includes: Poseidon version /\ File Encoding /\ Caret position
+	Added: .layout associated with xml format (Carrier Command & Take On Mars)
+	Changed: Font "Consolas"
+	Added: Full path of the current file is display on the window title
+	Changed: bin folder location
+	RMVED: Open with external: Visitor & Oxigen support
+	Changed: When using F8 with an unsupport file, will try to find the default assoc from Windows
+	Changed: RTFM (some updates)
+	Fixed: config files (mission and game): some strings were badly displayed
+	Added: config files: colorization for localized content
+	Fixed: config files: every x,y,z,h,w were displayed in blue
+	CHGND: config files: Better support
+	Added: Script files: local variables are displayed in light green (italic)
+	Changed: Script files: local magic variables are now displayed in green (bold) except _pos
+	Added: Script files: new A3 commands
+	Fixed: Plenty of bugs
+	Changed: SQM & BIEDI are now opened with colorization (small support, just to highlight the file structure)
+	CHGND: RPT reading improved
+	Fixed: The shortcut to display online doc in the context menu wasn't working
+	Added: Folder Poseidon\Docs & Licences
+
+	Note about the ability to directly start Arma 3 when a sqm is opened
+	Even if your file is located at P:\a3\missions_f_gamma\MPScenarios\MP_COOP_m08.Altis\mission.sqm, time the parent folder is well named, it will work.
+
+============
+VERSION 0.58.305 @ 02 10 2013
+	Added: FSM Editor (shortcut: f5) => Will open the current file if it's a FSM
+	Added: TexView 2 (shortcut: f6) => Will open the current file if it's a paa, pac, tga, jpg or png
+	Added: Open with external, "try to find the best program" (shortcut: f8) - If you don't know with what program  you can open it, try F8, the software will try to open it with an integrated tool or with the windows default one
+		- fsm or bifsm: FSM editor
+		- paa, pac, tga, jpg or png:  TexView
+		- log & rpt: Tail
+		- pew, pbl, xyz: Visitor
+		- p3d, 3ds, asc, sda: Oxygen
+		- sqm version 12: Arma 3
+		- sqm version 11: Arma 2 CO
+		- sqm version < 11 is ignored
+		- Unsupported type: our very first scripting tool from Microsoft... Notepad.exe
+	NOT PE -> N.C.
+
+============
+VERSION 0.57.229 @ 26 09 2013
+WARNING: A fresh install is highly recommended!
+	Added: Capability to start the game with current mission (right click on a mission.sqm)
+	Added: autocompletion for all know BIS functions
+	Fixed: control structures get a {} if typed, but not the trailing ;
+	Fixed: Time to time, the auto-indent screw up
+	Added: Colorization for localized strings in EXT files (non encapsulated or with "" or '')
+	RMVED: Some Menu options useless for soft use
+	Added: Snippet for SQF, serverOnly
+	Changed: Folder structure (Need a full clean of Poseidon\Data folder before updating)
+	Changed: For loop now triggered by "forspec"
+	Fixed: Forspec was using _x instead of _i (and can now include a forEach)
+	Added: for var loop triggered by "forvar"
+	Fixed: Can't switch to case condition with tab while adding a case with snippets
+	Added: Assoc for HPP ("assoc_hpp_with_poseidon.bat" can be found in Poseidon\run_once)
+	Changed: Documentation search restored as it was in 0.55
+	Changed: Manual, adding some shortcuts (ctrl+maj+j && ctrl+maj+v)
+	Added: Auto reindentation (WIP) Misc tools -> Auto Indentation
+	Added: Convert indation from spaces to tabs
+	Added: Convert indation from tabs to spaces
+	Changed: Better support of ext files
+	Added: mission config (ext): Respawn templates
+	Added: Poseidon version is now displayed  on the status bar
+	Changed: Default file type is now SQF (instead of Plain Text)
+	Changed: Search system optimized
+	Changed: animation when expanding or collapsing folders disabled for better performances with large projects
+	Changed: Font type and size (use ctrl+scroll to increase or decrease the font size)
+	Added: FSM files are now opened with the SQF syntax
+	Added: Snippet for common RGB colors (enter RGB_ to see all available colors)
+	Added: Snippet for common RGBA colors (with alpha)  (enter RGBA_ to see all available colors)
+	Added: Config macro for Rsc (dialog & display) (triggered by RscMacro)
+	Changed: Tab size reduiced
+	Changed: Folder names are highlighted
+	Added:  Unsaved files are easier to find in tabs
+
+============
+VERSION 0.56.186 @ 20 09 2013
+	KNOWN ISSUE: Some config (for model.cfg) keywords are missing
+	KNOWN ISSUE: Some default keywords are missing for the ext files
+
+	Changed: Brackets highlighter
+	Fixed: BIS Function colorization
+	Changed: Font
+	Added: description file (.ext) support<n
+	Changed: File assoc SQS / SQF / SQM / CFG / CPP / HPP / EXT / RPT
+		in Poseidon\run_once, you will find some bat files. Exec assoc_all_with_poseidon or the one you want
+	Changed: Fold unfold code block
+	Added: bis_fnc_spawnVehicle (triggered by fnc)
+	Added: bis_fnc_spawnGroup (triggered by fnc)
+	Added: bis_fnc_selectRandom (triggered by fnc)
+	Added: bis_fnc_playVideo (triggered by fnc)
+	Added: bis_fnc_dirTo (triggered by dirTo)
+	Added: bis_fnc_locations (triggered by fnc)
+	Added: bis_fnc_dirIndicator (triggered by dirIndicator)
+	Added: bis_fnc_param (triggered by param)
+	Added: bis_fnc_error (triggered by error)
+	Added: bis_fnc_taskPatrol (triggered by taskPatrol)
+	Added: count condition (triggered by countCond)
+	Added: getText from MissionConfig (triggered by getText, getValue)
+	Added: getNumber from MissionConfig (triggered by getNumber, getValue)
+	Fixed: forEach command & keyword (it belongs to control structures)
+	Added: Snippet: SILVIE config and stop (trigger: silvie)
+	Added: SILVIE config and stop (trigger: silvie)
+	Added: Snippet: Script, Garbage something
+	Added: Some new Arma 3 commands
+	Added: highlight the current line
+	Changed: highlight color
+	Changed: selection color
+	Fixed: Comment for header's file no longer requires additional edit
+	Added: Snippet: Function header (description, args...) formated with BIS convention
+	Changed: Various snippets of functions are now triggered by their short name
+	Fixed: IF snippet
+	Fixed: IF ELSE snippet
+	Fixed: IF ELSE ELSEIF snippet
+	Added: Much better brackets highlight
+		Make CTRL+P and enter "BH" too see available options
+		Brackets type is in the marge
+		When carret is over a bracket, given brackets (begin & end) are orange. Parents type are in the marge and underlined in the code
+	Fixed: Link to SQF english documentation was pointed a search. Now open the command's page
+	Changed: Side bar displayed by default
+
+
+============
+VERSION 0.55 @ 22 08 2013
+	Changed: RPT highlight
+		Member already defined
+	Changed: Main background color
+	Changed: Sidebar background color
+	Changed: To display online doc, right click on keyword, then View online Doc
+	CHNDG: Displaying online doc no longer requires to select the all word, just one click on it and push alt+e (alt+f for french doc)
+	Added: Support of model.cfg
+	Changed: Snippet: Comment for header's file no longer requires additional edit
+	Changed: Keywords list and commands list moved for make future updates easier
+	Added: Persistent sessions, unsaved files openned while closing Poseidon will loaded on the next launch (2 main scopes (each project gets its session more a default session unlinked with any project (unsaved project in fact ^_^)))
+	Changed: Performances improved
+	REMOV: Java support disabled, it's not used ATM ;)
+	Added: #debug.bat (in root folder), if poseidon crashes at launch, just run it
+	Added: Open file from another. Put the caret on a file name, right click->Misc->Open File name. OR push alt+d
+	Added: Clone a file to be able to edit it from multiple views (Main menu->Misc tools->Clone current file, and move it to another group tabs)
+	Added: File association with Poseidon (see folder <Poseidon_Dir>\run_once) for SQS, SQF, SQM, EXT
+
+	Note about performance tests:
+	Tests has been made with some files openned (36MB of RAM allocated). No freeze during loading, the progress bar is updated as it should. During loading, you can open/edit/save/create another file. Now, here the results:
+		1 cpp for ~11MB (418 362 lines) -> 06.6 secondes to load
+		2 cpp for ~23MB (830 970 lines) -> 11.8 secondes to load
+	Edition and navigation are perfectly fluid. Please, notice that files are loaded one by one to prevent freeze or lag. No performance issue detected with 14 files (for ~72MB) loaded while displaying for at once in split screen.
+
+
+============
+VERSION 0.54 @ 18 08 2013
+	KNONW ISSUE: It needs a file open to access to logs
+	KNONW ISSUE: Poseidon loses the focus when it opens a log
+	KNOWN BUG: bis_fnc_3Dcredits is not colorized
+
+	Changed: Default Theme
+	Fixed: Pre processor snippets
+	Added: RPT handling (main menu->Poseidon->Open +GAME+ log)
+			Arma 3: Because A3 generate one log each launch, this action opens the most recent
+			Keep your logs tidy, clean often
+	Changed: Some snippets
+	Added: Automatically save the file on loss of focus (sqf only)
+	Added: Default Format UTF8 w/o BOM for SQS/SQF/EXT/HPP
+	Added: trim trailing line's whitespace for script files
+	Added: antialias for greys
+	Added: Magic variables
+	Added: Colorized BIS functions (BIS_FNC_*)
+	Changed: RTFM (help) updated
+	Changed: font for SQF
+	Added: Readme skeleton (make a text file (plain text), type "read" and push ctrl+space. Then push tab to        edit sections)
+	Added: BIS function support: bis_fnc_3Dcredits, bis_fnc_crows, bis_fnc_taskDefend, bis_fnc_taskPatrol...
+	Added: Shortcut (ctrl+/) to comment / uncomment the selection (line, elements, blocks...)
+
+
+============
+VERSION 0.53 @ 17 08 2013
+	Clean folder
+	Changed: Default Theme
+	Fixed: Snippets variables
+
+
+============
+VERSION 0.52 @ 17 08 2013
+	Added: User settings (\Data\Packages\BI Tools\options\)
+	DELETED: Some useless functions
+
+
+============
+VERSION 0.51 @ 2011
+	Fixed: Seach online
+	Added: Snippets
+
+
+============
+VERSION 0.50 @ 2011
+	Initial version

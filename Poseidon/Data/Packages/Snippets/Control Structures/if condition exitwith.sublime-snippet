@@ -1,0 +1,10 @@
+<snippet>
+	<description>If Condition exitWith</description>
+	<content><![CDATA[if (${0:/* condition */}) exitWith 
+{
+	${1:/* code */}
+};
+]]></content>
+	<tabTrigger>if, exitWith</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

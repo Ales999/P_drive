@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------------
+	file: description.ext
+	=====================
+	Author: Tom_48_97 <tom_48_97@me.com>
+	Description:
+--------------------------------------------------------------------*/
+#define __filename "description.ext"
+#define MISSION_DEBUG 1
+
+#include "params.h"
+
+allowFunctionsLog = true;
+dev = "Tom_48_97";
+author = "Tom_48_97";
+briefingName = "";
+overviewPicture = "";
+overviewText = "";
+onLoadName = "";
+onLoadMission = "";
+onLoadMissionTime = 1;
+loadScreen = "";
+
+class CfgFunctions {
+	class BIS {
+		tag = "BIS";
+		class SoundDesign {
+			file="Functions\SoundDesign";
+			class sound_restart {};
+		};
+	};
+};

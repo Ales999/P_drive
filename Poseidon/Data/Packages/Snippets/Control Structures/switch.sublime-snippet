@@ -1,0 +1,17 @@
+<snippet>
+	<description>swicth...</description>
+	<content><![CDATA[switch (${0:VARIABLE}) do 
+{
+	case ${1:VALUE}: 
+	{
+		${2:/* STATEMENT */}
+	};
+	
+	default 
+	{
+		${3:/* STATEMENT */}
+	};
+};]]></content>
+	<tabTrigger>switch</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

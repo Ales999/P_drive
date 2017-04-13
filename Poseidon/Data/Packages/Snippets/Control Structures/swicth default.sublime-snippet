@@ -1,0 +1,10 @@
+<snippet>
+	<description>swicth default</description>
+	<content><![CDATA[default 
+{
+	${0:/* STATEMENT */}
+};
+]]></content>
+	<tabTrigger>default</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

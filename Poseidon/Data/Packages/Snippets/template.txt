@@ -1,0 +1,8 @@
+<snippet>
+	<description>description</description>
+	<content><![CDATA[
+[${1:position},${2:interval@number},${3:brightness@Number},${4:newspapers@bool}] call BIS_fnc_sandstorm;
+]]></content>
+	<tabTrigger>hello</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

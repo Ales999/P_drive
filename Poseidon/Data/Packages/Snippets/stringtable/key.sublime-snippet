@@ -1,0 +1,8 @@
+<snippet>
+	<description>key</description>
+	<content><![CDATA[<Key ID="str_${1:my_key_name}">
+	<Original>${2:My long string (or not)}</Original>
+</Key>]]></content>
+	<tabTrigger>key</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

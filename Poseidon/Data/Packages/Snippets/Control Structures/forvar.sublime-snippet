@@ -1,0 +1,10 @@
+<snippet>
+	<description>For Var loop</description>
+	<content><![CDATA[for "_i" from ${1:1} to ${2:10} step 1 do 
+{
+	${3:/* BLOCK */}
+};
+]]></content>
+	<tabTrigger>forvar</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

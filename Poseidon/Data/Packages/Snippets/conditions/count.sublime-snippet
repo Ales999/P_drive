@@ -1,0 +1,6 @@
+<snippet>
+	<description>count on condition</description>
+	<content><![CDATA[{${1:/* condition where _x is a member of counted ARRAY */}} count ${2:ARRAY} > ${3:/*VALUE or ARRAY to compare with*/}]]></content>
+	<tabTrigger>count</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

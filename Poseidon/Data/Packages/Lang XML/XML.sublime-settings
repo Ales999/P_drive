@@ -1,0 +1,4 @@
+{
+	"extensions": ["xml", "xsd", "xslt", "svg", "layout", "opt"],
+	"hidden_extensions": ["rss", "sublime-snippet", "vcproj", "tmLanguage", "tmTheme", "tmSnippet", "tmPreferences", "dae"]
+}

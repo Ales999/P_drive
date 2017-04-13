@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[scriptName "${TM_FILENAME/(.*)[.](.*)/$1/g}";
+/*-----------------------------------------------------------------------------
+	  ____ __        __ ____   ____  
+	 / ___|\ \      / /|  _ \ |___ \ 
+	| |     \ \ /\ / / | |_) |  __) |
+	| |___   \ V  V /  |  _ <  / __/ 
+	 \____|   \_/\_/   |_| \_\|_____|
+
+	${1:$TM_FILENAME}
+	${1/./=/g}
+	CWR2: Cold War Rearmed 2 cwr2.arma2.fr (ofpectag:cwr2)
+	Author: ${2:$TM_FULLNAME} ${3:<$TM_EMAIL>}  ${4:(ofpectag:$TM_TAG)}
+	Remarks: ${5}
+-----------------------------------------------------------------------------*/
+
+#define __filename "${1:$TM_FILENAME}"
+${6}
+]]></content>
+	<tabTrigger>cwrheader</tabTrigger> 
+	<description>cwr 2 file header</description>
+	<scope>source.sqf, source.hpp, source.ext, source.cpp, source.sqm</scope>
+</snippet>

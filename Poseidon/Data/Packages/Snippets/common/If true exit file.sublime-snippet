@@ -1,0 +1,6 @@
+<snippet>
+	<description>If (true) exitWith /* code */</description>
+    <content><![CDATA[if (true) exitWith {${0:/* code */}};]]></content>
+    <tabTrigger>endoffile</tabTrigger>
+    <scope>source.sqf</scope>
+</snippet>

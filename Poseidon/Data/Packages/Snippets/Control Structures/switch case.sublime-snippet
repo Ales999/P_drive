@@ -1,0 +1,10 @@
+<snippet>
+	<description>switch, case</description>
+    <content><![CDATA[case ${1:VALUE}: 
+{
+	${2:/* STATEMENT */}
+};
+]]></content>
+    <tabTrigger>case</tabTrigger>
+    <scope>source.sqf</scope>
+</snippet>

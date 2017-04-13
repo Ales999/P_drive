@@ -1,0 +1,4 @@
+comment "revert changes made by specularMapFinish";
+p = src pixel [u,v];
+y = 1 - red p;
+c = color[red p,y,blue p,1];
