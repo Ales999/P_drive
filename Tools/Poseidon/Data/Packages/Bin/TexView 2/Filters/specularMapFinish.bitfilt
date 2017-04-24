@@ -1,0 +1,6 @@
+comment "define specular power";
+sp = 10;
+p = src pixel [u,v];
+x = 1 - green p;
+y = green p * ((sp * blue p + 1) / (sp + 1));
+c = color[x,y,blue p,1];

@@ -1,0 +1,8 @@
+<snippet>
+	<description>Group will man nearby static defenses within a 100 metre radius of the defense position and guard the position. Some units will man weapons, others will patrol and the remainder will sit on the ground.</description>
+	<content><![CDATA[
+[group ${1:unitName}, getPos ${1:unitName}] call bis_fnc_taskDefend
+]]></content>
+	<tabTrigger>fnc</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[class ${1:className}
+{
+	name = "${2:Full name}";
+	face = "${3:face name}"; 
+	glasses = "${4:className}"; //default: none
+	speaker = ${5:constant};
+	pitch = ${6:float(from 0 to 1)};
+};]]></content>
+	<tabTrigger>add_Identitie</tabTrigger> 
+	<description>Add an Identitie</description>
+	<scope>source.hpp, source.ext</scope>
+</snippet>

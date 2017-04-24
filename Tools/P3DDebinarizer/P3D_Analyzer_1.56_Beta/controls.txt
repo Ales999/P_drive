@@ -1,0 +1,4 @@
+viewport controls:
+-rotate: MouseLeft
+-move: MouseRight
+-zoom: MouseMiddle (on most mice - press the scroll)

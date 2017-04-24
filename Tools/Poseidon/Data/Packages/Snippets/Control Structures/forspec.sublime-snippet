@@ -1,0 +1,10 @@
+<snippet>
+	<description>for forspec loop</description>
+	<content><![CDATA[for [{_i${0:=1}},{_i${1:<=10}},{_i=_i+1}] do 
+{
+	${2:/* code */}
+};
+]]></content>
+	<tabTrigger>forspec</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

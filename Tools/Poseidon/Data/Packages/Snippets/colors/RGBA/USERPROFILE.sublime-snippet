@@ -1,0 +1,6 @@
+<snippet>
+	<description>RGBA Color</description>
+	<content><![CDATA["(profilenamespace getvariable ['GUI_BCG_RGBA_R',0.69])","(profilenamespace getvariable ['GUI_BCG_RGBA_G',0.75])","(profilenamespace getvariable ['GUI_BCG_RGBA_B',0.5])", 1]]></content>
+	<tabTrigger>RGBA_USERPROFILE</tabTrigger>
+	<scope>source.sqf, source.ext, source.c,source.hpp,source.cpp,source.c++pp, source.c,source.hpp,source.cpp,source.c++</scope>
+</snippet>

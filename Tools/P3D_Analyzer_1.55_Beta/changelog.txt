@@ -1,0 +1,50 @@
+v1.0 beta
+-first version
+
+v1.1 beta
+-fixed crashes opening models with named selectios, containing a lot of points
+-fixed crashes opening wreck models
+-fixed crashes opening some other models
+
+v1.2 beta
+-improoved named selections detection
+-fixed invalid lod specification after saving binarized file
+-fixed crashes opening models with large LodItems ("lod-exsisting-bones") section
+
+v1.3 beta
+-PAA DXT1/DXT5 textures support
+-fixed: geometry lod had no mass and properties
+-fixed: debinarized model not loaded in the game
+
+v1.45 beta
+-fixed: Dock.xml created outside of the application working directory
+-added color indication of polygons with selected texture
+-added code-colors drawing //colors like #(argb,8,8,3)color(0.4,0.5,0.6,0.1,ca)//
+
+v1.46 beta
+-fixed: mistake in madel config: animation types "rotation" were called "rotaton"
+
+v1.51 beta
+-sightly improoved model.cfg export routines
+-fixed: texture list had duplicate texture named after texture directory redefinition
+
+v1.52 beta
+-fixed: texture selection not didn't work when "Show textures" was off
+-fixed: selecting named selection didn't reset yellow-colored faces with no textures
+-introduced multilanguage localization
+-introduced lighting to render system
+-introduced texture swaping system
+
+v1.53 beta
+-added materials browser
+-fixed: app crash when selecting texture path with no model loaded
+
+v1.54 beta
+-added console version of P3D Analyzer
+-added files quick-browser
+-fixed: lighting turn-off didn't work when Solid+wireframe render mode was selected
+-fixed: bug with changing Y&Z axes colors
+-fixed: error message after changing properties, while running the application without file-write permissions
+
+v1.55 beta
+-added TakeOnHelicopters (TKOH v.52) model support

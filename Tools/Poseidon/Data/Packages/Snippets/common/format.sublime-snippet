@@ -1,0 +1,6 @@
+<snippet>
+	<description>Formated text</description>
+    <content><![CDATA[format ["%1", ${1:/* Variables */}]]]></content>
+    <tabTrigger>format</tabTrigger>
+    <scope>source.sqf</scope>
+</snippet>

@@ -1,0 +1,131 @@
+﻿Poseidon
+========
+MANUAL / HELP
+============
+
+More topics here: http://poseidon.arma3.fr/documentation/
+
+Misc
+-------------------------------------------------
+ctrl+g display snippets
+alt+e display online help about the select command (in English)
+alt+f display online help about the select command (in French)
+ctrl+shift+t reopen last closed file
+ctrl+ / comment/un-comment current line
+alt+d open file under caret
+ctrl+shift+c open current file into a new tab
+
+EDITING
+-------------------------------------------------
+ctrl+C copy current line (if no selection)
+ctrl+X cut current line (if no selection)
+ctrl+shift+K delete line
+ctrl+↩ insert line after
+ctrl+shift+↩ insert line before
+ctrl+shift+↑ move line (or selection) up
+ctrl+L select line (repeat to select next lines)
+ctrl+D select word (repeat select others occurrences in context for multiple editing)
+ctrl+M jump to closing bracket for current code, repeat to jump to opening bracket
+ctrl+shift+M select all contents of the current brackets (curly brackets, square brackets, parentheses)
+ctrl+KK delete from cursor to end of line
+ctrl+K+⌫ delete from cursor to start of line
+ctrl+] indent current line(s)
+ctrl+[ un-indent current line(s)
+ctrl+shift+D duplicate line(s)
+ctrl+J join line below to the end of the current line
+ctrl+shift+/ block comment current selection
+ctrl+Y redo, or repeat last keyboard shortcut command
+ctrl+shift+V paste and indent correctly
+ctrl+Space select next auto-complete suggestion
+ctrl+U soft undo (somehow undoes your movements; it jumps to your last change before undoing it when you repeat this command)
+
+EDITION/LINE
+-------------------------------------------------
+ctrl+] Indent
+crtl+[ Unindent
+ctrl+shift+up Swap line up
+ctrl+shift+down Swap line down
+ctrl+shift+d Duplication line
+ctrl+shift+k Delete line
+ctrl+j Join lines
+
+EDITION/LINE
+-------------------------------------------------
+ctrl+/ Toggle comment
+ctrl+shift+/ Toggle block comment
+
+EDITION/TAGS
+-------------------------------------------------
+alt+. Close tag
+ctrl+shift+a Expand selection to tag
+alt+shift+w Wrap selection with tag
+
+EDITION/TAGS
+-------------------------------------------------
+ctrl+k, ctrl+space Set mark
+ctrl+k, ctrl+a select to mark
+ctrl+k, ctrl+w delete to mark
+ctrl+k, ctrl+x swap with mark
+ctrl+k, ctrl+g clear mark
+
+EDITION/TAGS
+-------------------------------------------------
+ctrl+shift+[ Fold
+ctrl+shift+] Unfold
+ctrl+k, ctrl+1 Fold all
+ctrl+k, ctrl+2 Fold level 2
+ctrl+k, ctrl+3 Fold level 3
+ctrl+k, ctrl+n Fold level n
+…
+ctrl+k, ctrl+9 Fold level 9
+ctrl+k, ctrl+t Fold tag attributes
+
+NAVIGATION/GOTO ANYWHERE
+-------------------------------------------------
+ctrl+P quick-open files by name in your project (doesn’t seem to need an actual project set up, it just searches in the directories around the currently-opened file
+ctrl+R goto symbol (functions and classes) in the file. Same as ctrl+P, then type @
+ctrl+; goto word in current file. Same as ctrl+P, then type
+ctrl+G goto line in current file. Same as ctrl+P, then type :
+
+GENERAL
+-------------------------------------------------
+ctrl+shift+P command prompt
+ctrl+KB toggle side bar
+
+FIND/REPLACE
+-------------------------------------------------
+ctrl+F find
+ctrl+H replace
+ctrl+shift+F find in files
+
+TABS
+-------------------------------------------------
+ctrl+shift+t open last closed tab (just like in your browser)
+ctrl+PgDn cycle down through open tabs, cycle up with ctrl+PgUp
+ctrl+⇆ cycle through last tabs (repeat to go back further in history)
+
+SPLIT WINDOW
+-------------------------------------------------
+Alt+shift+2 split into two columns
+Alt+shift+1 revert to single column
+Alt+shift+5 grid (4 groups)
+ctrl+[1,2,3,4] jump to “group” (pane)
+ctrl+shift+[1,2,3,4] move file to specified group
+
+BOOKMARKS
+-------------------------------------------------
+ctrl+F2 toggle bookmark
+F2 next bookmark
+shift+F2 previous bookmark
+ctrl+shift+F2 clear bookmarks
+
+TEXT MANIPULATION
+-------------------------------------------------
+ctrl+KU upper case
+ctrl+KL lower case
+
+EXTERNAL PROGRAMS
+-------------------------------------------------
+F5 Start FSM Editor, witht the current file if possible
+F6 Start TexView 2, witht the current file if possible
+F8 Try to find the best program for the current file

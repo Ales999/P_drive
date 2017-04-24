@@ -1,0 +1,7 @@
+<snippet>
+	<description>#define value</description>
+    <content><![CDATA[#define	${1:VAR}	${2:VALUE}
+    	]]></content>
+    <tabTrigger>define</tabTrigger>
+    <scope>source.c, source.c++, source.sqf</scope>
+</snippet>

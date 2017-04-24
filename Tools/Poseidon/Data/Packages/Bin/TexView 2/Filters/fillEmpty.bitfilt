@@ -1,0 +1,9 @@
+comment "Fill empty spaces";
+limitA = 0.0;
+
+comment "Calculate";
+c = src pixel [u,v] ;
+if (limitA>=alpha c)  then
+{
+  c=color [red avg,green avg,blue avg,alpha c];
+}

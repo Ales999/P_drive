@@ -1,0 +1,6 @@
+comment "Target average colors";
+tr = 0.5; tg = 0.5; tb = 0.5;
+
+comment "Calculate";
+ar = red avg; ag=green avg; ab=blue avg;
+c = src pixel [u,v] * color [tr/ar,tg/ag,tb/ab,1]

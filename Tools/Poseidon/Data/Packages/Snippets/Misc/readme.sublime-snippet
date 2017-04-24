@@ -1,0 +1,101 @@
+<snippet>
+	<description>Destroy city with triggers</description>
+    <content><![CDATA[/*---------------------------------------------------------------------------
+(\
+\'\ 
+ \'\     __________
+ / '|   ()_________)	${0:Name of your content}
+ \ '/    \ ~~~~~~~~ \		${1:Other info}
+   \       \ ~~~~~~   \			
+   ==).      \__________\			Website: 
+  (__)       ()__________)				${2:You website here}
+
+#################################################################################
+	README	
+#################################################################################
+${3:Desription of your content}
+
+
+#################################################################################
+	TODO
+#################################################################################
+${4:Desription of your content}
+
+
+#################################################################################
+	AUTHORS	
+#################################################################################
+${5:$TM_FULLNAME} ${6:<$TM_EMAIL>}  ${7:(ofpectag:$TM_TAG)}
+${8:More authors?}
+
+
+#################################################################################
+	THANKS	
+#################################################################################
+${9:Who helped you?}
+
+
+#################################################################################
+	ChangeLog	
+#################################################################################
+${10:Versions and changes}
+
+
+#################################################################################
+	NEWS	
+#################################################################################
+General news about BIS 
+	http://www.bistudio.com/
+
+Are you skilled? Motivated? Hard working? Looking for excitement and adventure? 
+	http://www.bistudio.com/english/company/careers
+
+General news about ArmA
+	http://armaholic.com 	English
+	http://arma2.fr 		French
+	http://ArmA2Base.de 	German
+
+	
+#################################################################################
+	COPYING / LICENSE	
+#################################################################################
+//                                                                             //
+//                                                                             //
+//  This product is licensed for personal use only.  Commercial distribution   //
+//  prohibited.  Military use prohibited.  Use prohibited if any component     //
+//  of this distribution removed or modified without express written consent   //
+//  of the developer.                                                          //
+//                                                                             //
+#################################################################################
+#                               DISCLAIMER                                      #
+// The author, of this software accepts no responsibility for damages          //
+// resulting from the use of this product and makes no warranty or             //
+// representation, either express or implied, including but not limited to,    //
+// any implied warranty of merchantability or fitness for                      //
+// a particular purpose. This software is provided "AS IS", and you,           //
+// its user, assume all risks when using it.                                   //
+#################################################################################
+
+
+                              )         )
+                             (     (     )   (
+                            (     (     (     )
+                             )   (      )     )
+                            (     )    (     (
+                                    )        )
+                        ___________________________
+                       |                            ~\
+                       |                          |\  \
+                       |                          | )  )
+                       |                          |/  /
+                       |                             /
+                        \                         /~~
+                         \                       /
+                          \____________________ /
+                  ________________________________________
+                  \______________________________________/
+
+*/]]></content>
+    <tabTrigger>readme</tabTrigger>
+    <scope>source.txt, source.md, source.nfo, text.plain</scope>
+</snippet>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>IN PROGRESS</string>
+	<key>fileTypes</key>
+	<array>
+		<string>ext</string>
+	</array>
+	<key>firstLineMatch</key>
+	<string>-\*- C\+\+ -\*-</string>
+	<key>foldingStartMarker</key>
+	<string>(?x)
+		 /\*\*(?!\*)
+		|^(?![^{]*?//|[^{]*?/\*(?!.*?\*/.*?\{)).*?\{\s*($|//|/\*(?!.*?\*/.*\S))
+	</string>
+	<key>foldingStopMarker</key>
+	<string>(?&lt;!\*)\*\*/|^\s*\}</string>
+	<key>keyEquivalent</key>
+	<string>^~C</string>
+	<key>name</key>
+	<string>EXT</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>(((\,|)(-|\+){2,9}(\,|))|(\=){2,9}|(\||\>){3,9})|(?i:(.*)(issue|ISSUE)(.*))</string>
+			<key>name</key>
+			<string>keyword.critical.rpt</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i:(//)(.*)(todo|note)(.*))</string>
+			<key>name</key>
+			<string>keyword.green.rpt</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>((((;)){2,9}))|(?i:(//)(.*)(?i:(check))(.*))</string>
+			<key>name</key>
+			<string>keyword.danger.rpt</string>
+		</dict>
+		<dict>
+			<key>patterns</key>
+
+			<array>
+				<!-- Multiline comments -->
+				<dict>
+					<key>begin</key>
+					<string>/\*</string>
+					<key>captures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.ext</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>\*/</string>
+					<key>name</key>
+					<string>comment.block.ext</string>
+				</dict>
+				<!-- Single line comment -->
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.ext</string>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>((//)(?!\[\[).*$\n?)</string>
+					<key>name</key>
+					<string>comment.line.double-dash.ext</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#special_block</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.c</string>
+		</dict>
+	</array>
+	<key>repository</key>
+	<dict>
+		<key>angle_brackets</key>
+		<dict>
+			<key>begin</key>
+			<string>&lt;</string>
+			<key>end</key>
+			<string>&gt;</string>
+			<key>name</key>
+			<string>meta.angle-brackets.ext</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#angle_brackets</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>$base</string>
+				</dict>
+			</array>
+		</dict>
+
+		<key>special_block</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>(?i:(exitwith|then))( |){1,9}([a-zA-Z_0-9.]+)|(?i:(if))(.*)(then|exitwith)( |){1,9}([a-zA-Z_0-9.]+)|(,( ||\t|\n){0,999}})</string>
+					<key>name</key>
+					<string>keyword.critical.rpt</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b(?i:((| ):(| )[A-Za-z_][A-Za-z0-9_]**))\b</string>
+					<key>name</key>
+					<string>keyword.inherited.ext</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b(?i:((class |)[A-Za-z_][A-Za-z0-9_]**(:)))\b</string>
+					<key>name</key>
+					<string>keyword.class.ext</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b(?i:(class [A-Za-z_][A-Za-z0-9_]**))\b</string>
+					<key>name</key>
+					<string>keyword.control.ext</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>(?i:maxChars|saving|(face|allowFunctionsLog|glasses|enableDebugConsole|speaker|pitch|gameType|minPlayers|corpse(Limit|Removal(MaxTime|MinTime))|wreck(Limit|Removal(MaxTime|MinTime))|onPlayerKilled|maxPlayers|onLoadMission(Time|)|onLoadIntro|onLoadIntroTime|loadScreen|minScore|avgScore|maxScore|(onPlayer|)respawn(Templates|delay|VehicleDelay|Dialog|OnStart|)|(keysLimit|sound(s|close|)|tracks|controls|titles|difficulty|arguments|values|onMinimapScript|colorIconPicture|Picturecolor|textures|animationList|disableRandomization)( |)\[(.*)\]|(done|)keys(Limit|)\[(.*)\]|disableChannels(\[\])|disabledAI|aiKills|briefing|debriefing|showGPS|showCompass|showMap|showNotePad|showPad|showWatch|count|weaponPool|titleParam[0-9_]*|(values|texts|)Param[0-9_]*\[(.*)\]|defValueParam[0-9_]* |author|joinUnassigned|OnLoadMission|loadScreen|scriptedPlayer|diag(radio|hit|key|AAR)|viewDistance|(overview|)text(s|| )|(id(d|c)|description|type|style|lineSpacing|movingEnable|dev|(onLoad|display|briefing|)Name|sizeEx|(((color|)icon)|overview|background|)Picture(color|)|iconText|duration|priority|enableItemsDropping|onload|startFogBase|forecastFogBase|startFogDecay|forecastFogDecay|fogBeta0Min|fogBeta0Max|align|size|image|tip|(allowFunctions|)recompile|picture(Background|)|ext|file|sound(close|Radio|))|(color(Text|Background|IconText| |)\[(.*)\]|(pre|post)Init)|((wreck|corpse)managerMode)|forceRotorLibSimulation|(w|fadein|font|shadow|x|y|z|h|color|(sub|)title))(| )=)</string>
+					<key>name</key>
+					<string>support.definition.ext</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>(?i:(CTF|Unknown|((san|)db(ox|))|Coop|DM|Team|CTF|SCont|CTI|FF|"(?i:(NONE|BIRD|INSTANT|BASE|GROUP|SIDE|PLAIN|PLAIN DOWN|BLACK|BLACK FADED|BLACK OUT|BLACK IN|WHITE OUT|WHITE IN|))"|))</string>
+					<key>name</key>
+					<string>variable.magic</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b(mod|rad)\b|\|\||&amp;&amp;|\||\+|-|%|,|\{|\}|\[|\]|\*|\/|\^|!=|&lt;=?|&gt;=?|(?&lt;!\.)\.{2}(?!\.)</string>
+					<key>name</key>
+					<string>keyword.operator.ext</string>
+				</dict>
+				<dict> <!-- ADDED 0.57 -->
+					<key>match</key>
+					<string>(?i:( ('|"|)\$[A-Za-z_][A-Za-z0-9_]**('|"|)(;)))</string>
+					<key>name</key>
+					<string>variable.localized.ext</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>scopeName</key>
+	<string>source.ext</string>
+	<key>uuid</key>
+	<string>26251B18-6B1D-11D9-AFDB-000D93589AF6</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[class CfgIdentities
+{
+	class Guba
+	{
+		name = "Aleksei Vasilii Guba";
+		face = "Face74"; // Temp
+		glasses = "None";
+		speaker = Male02RU;
+		pitch = 0.85;
+	};
+};
+]]></content>
+	<tabTrigger>cfgidentities</tabTrigger> 
+	<description>desc/class CfgIdentities</description>
+	<scope>source.hpp, source.ext</scope>
+</snippet>

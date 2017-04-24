@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[class CfgMusic
+{
+	tracks[]={};
+
+	class ${1:Name}
+	{
+		name = "${1:Name}";
+		sound[] = {"${2:\music\filename.ogg}", db+0, 1.0};
+	};
+};
+]]></content>
+	<tabTrigger>cfgRadio</tabTrigger> 
+	<description>desc/class CfgRadio</description>
+	<scope>source.hpp, source.ext</scope>
+</snippet>

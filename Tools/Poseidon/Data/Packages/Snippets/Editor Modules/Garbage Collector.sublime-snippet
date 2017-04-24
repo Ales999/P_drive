@@ -1,0 +1,7 @@
+<snippet>
+	<description>Garbage something</description>
+	<content><![CDATA[_trashValue = [${1:/* anything */}] execVM "ca\modules\garbage_collector\data\scripts\trashIt.sqf"
+]]></content>
+	<tabTrigger>Garbage Collector</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

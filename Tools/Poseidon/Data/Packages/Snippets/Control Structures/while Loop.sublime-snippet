@@ -1,0 +1,10 @@
+<snippet>
+	<description>While Loop</description>
+	<content><![CDATA[while {${0:/* condition */}} do 
+{
+	${1:/* STATEMENT */}
+};
+]]></content>
+	<tabTrigger>while</tabTrigger>
+	<scope>source.sqf</scope>
+</snippet>

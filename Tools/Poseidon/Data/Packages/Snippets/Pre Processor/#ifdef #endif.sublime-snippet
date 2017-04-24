@@ -1,0 +1,8 @@
+<snippet>
+	<description>#ifdef #endif</description>
+	<content><![CDATA[#ifdef ${1:/* VALUE */}
+	${2:/* STATEMENT */}
+#endif]]></content>
+	<tabTrigger>ifdef</tabTrigger>
+	<scope>source.c, source.c++, source.sqf</scope>
+</snippet>
