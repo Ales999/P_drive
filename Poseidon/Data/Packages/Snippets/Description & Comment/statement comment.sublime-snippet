@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[/*---------------------------------------------------------------------------
-	${1:Title}
----------------------------------------------------------------------------*/
-]]></content>
-<tabTrigger>description, comment, statement</tabTrigger>
-	<scope>source.sqf, source.sqm, source.hpp, source.cpp</scope>
-	<description>statement's comment</description>
-</snippet>

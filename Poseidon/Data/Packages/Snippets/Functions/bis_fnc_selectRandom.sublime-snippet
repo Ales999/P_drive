@@ -1,8 +1,0 @@
-<snippet>
-	<description>Selects one of the arguments at random</description>
-	<content><![CDATA[[${1:/* Array of values of which one will be selected at random */}] call BIS_fnc_selectRandom;
-
-]]></content>
-	<tabTrigger>fnc</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

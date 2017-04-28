@@ -1,6 +1,0 @@
-<snippet>
-	<description>stop ALICE Module</description>
-    <content><![CDATA[BIS_alice_mainscope setvariable ["civilianCount","0"];]]></content>
-    <tabTrigger>alice</tabTrigger>
-    <scope>source.sqf</scope>
-</snippet>

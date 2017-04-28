@@ -1,6 +1,0 @@
-<snippet>
-	<description>RGB Color</description>
-	<content><![CDATA[0.333,0.7960,0.9137]]></content>
-	<tabTrigger>RGB_LOG_HIGHLIGHT</tabTrigger>
-	<scope>source.sqf, source.ext, source.c,source.hpp,source.cpp,source.c++pp, source.c,source.hpp,source.cpp,source.c++</scope>
-</snippet>

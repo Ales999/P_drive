@@ -1,6 +1,0 @@
-<snippet>
-	<description>Private statement</description>
-    <content><![CDATA[private [${1:/* Local vars @array */}]; ]]></content>
-    <tabTrigger>private</tabTrigger>
-    <scope>source.sqf</scope>
-</snippet>

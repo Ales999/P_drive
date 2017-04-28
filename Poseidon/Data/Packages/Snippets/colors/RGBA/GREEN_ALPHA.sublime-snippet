@@ -1,6 +1,0 @@
-<snippet>
-	<description>RGBA Color</description>
-	<content><![CDATA[0.0,0.7,0.1,  1]]></content>
-	<tabTrigger>RGBA_GREEN_ALPHA</tabTrigger>
-	<scope>source.sqf, source.ext, source.c,source.hpp,source.cpp,source.c++pp, source.c,source.hpp,source.cpp,source.c++</scope>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<description>Replaces GPS frame</description>
-	<content><![CDATA[/*Following line have to be defined in mission Description.ext:
-onMinimapScript[] = {"BIS_fnc_customGPS_Spawn"};*/
-["${1:Full path to the image}",${2:delta X},${3:delta Y}] call BIS_fnc_customGPS;
-]]></content>
-	<tabTrigger>fnc</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

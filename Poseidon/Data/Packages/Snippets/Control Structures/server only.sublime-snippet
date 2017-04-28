@@ -1,7 +1,0 @@
-<snippet>
-	<description>if not server, exit</description>
-    <content><![CDATA[if !(isServer) exitWith {/* exit if not server */};
-]]></content>
-    <tabTrigger>serverOnly</tabTrigger>
-    <scope>source.sqf</scope>
-</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-	<description>Direction indicator.</description>
-	<content><![CDATA[ [${1:/* center, object */}, ${2:/* related object: Object to which indicator points to */}, ${3:/* Color [r, g, b, a] */}, ${4:/* sizeCoef (Optional): Number - size coeficient (default is same as height of command bar) */}] call bis_fnc_dirIndicator;
-]]></content>
-	<tabTrigger>dirIndicator</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

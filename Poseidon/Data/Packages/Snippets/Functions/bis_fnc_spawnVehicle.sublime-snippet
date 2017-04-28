@@ -1,7 +1,0 @@
-<snippet>
-	<description>Function to spawn a certain vehicle type with all crew (including turrets). The vehicle can either become part of an existing group or create a new group.</description>
-	<content><![CDATA[[${1:/* desired position (Array) */},${2:/* desired azimuth/direction (Number) */},${3:/* type of the vehicle (String) */},${4:/* side or group */}] call BIS_fnc_spawnVehicle;
-]]></content>
-	<tabTrigger>fnc</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

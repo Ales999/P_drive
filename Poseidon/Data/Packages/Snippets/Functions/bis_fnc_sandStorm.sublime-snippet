@@ -1,7 +1,0 @@
-<snippet>
-	<description>Creates particle sandstorm round given object</description>
-    <content><![CDATA[[${1:/*Object sandstorm center*/},${2:0.07},${3:1},${4:true}] call bis_fnc_sandstorm;
-]]></content>
-    <tabTrigger>fnc</tabTrigger>
-    <scope>source.sqf</scope>
-</snippet>

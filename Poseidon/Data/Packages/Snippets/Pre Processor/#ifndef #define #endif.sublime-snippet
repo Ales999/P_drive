@@ -1,9 +1,0 @@
-<snippet>
-	<description>#ifndef … #define … #endif</description>
-	<content><![CDATA[#ifndef ${1:/* VARIABLE */}
-	#define ${1:/* VARIABLE */} ${2:/* VALUE */}
-#endif
-]]></content>
-	<tabTrigger>ifndef define</tabTrigger>
-	<scope>source.c, source.c++, source.sqf</scope>
-</snippet>

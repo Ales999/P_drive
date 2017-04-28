@@ -1,7 +1,0 @@
-<snippet>
-	<description>Function which returns vector direction from pos1 to pos2.</description>
-	<content><![CDATA[[${1:/* param1 - vector starting point, Position or Object */}, ${2:/* param1 - vector ending point, Position or Object */}] call BIS_fnc_dirTo
-]]></content>
-	<tabTrigger>dirTo</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

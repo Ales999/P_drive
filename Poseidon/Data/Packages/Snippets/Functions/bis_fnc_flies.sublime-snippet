@@ -1,8 +1,0 @@
-<snippet>
-	<description>Spawns flies around position</description>
-	<content><![CDATA[
- _flies = [position ${1:object},0.1,1] call bis_fnc_flies;
-]]></content>
-	<tabTrigger>fnc</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

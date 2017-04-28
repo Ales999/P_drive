@@ -1,6 +1,0 @@
-<snippet>
-	<description>getNumber value from missionConfig</description>
-    <content><![CDATA[(getNumber (missionconfigfile >> "${1:constant_name defined on description.ext}"))]]></content>
-    <tabTrigger>getNumber getValue</tabTrigger>
-    <scope>source.sqf</scope>
-</snippet>

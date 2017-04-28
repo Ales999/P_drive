@@ -1,9 +1,0 @@
-<snippet>
-	<description>Plays in-game video in GPS frame</description>
-	<content><![CDATA[
-_handler = ["${1:file.ovg}",${2:sizeCoef}] spawn bis_fnc_customGPSvideo;
-waitUntil {scriptDone _handler};
-]]></content>
-	<tabTrigger>fnc</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

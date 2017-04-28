@@ -1,6 +1,0 @@
-<snippet>
-	<description>Spawns flock of crows circling the area</description>
-	<content><![CDATA[bis_crows = [${1:/*Object or marker center*/},20,8,20] call bis_fnc_crows; ]]></content>
-	<tabTrigger>crows</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

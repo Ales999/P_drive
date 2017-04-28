@@ -1,7 +1,0 @@
-<snippet>
-	<description>Creates or registers location logics (used in various modules, like Ambient Civilians, Ambient Civilian Vehicles or Warfare 2).</description>
-	<content><![CDATA[[${1:/* type(s): String or Array of strings */},[${2:/* area: Array in format [center,distance] */}],${3:/* debug: (Optional): Boolean */}] call BIS_fnc_locations;
-]]></content>
-	<tabTrigger>fnc</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

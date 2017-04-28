@@ -1,8 +1,0 @@
-<snippet>
-	<description>Plays in-game video.</description>
-	<content><![CDATA[_video = ["${1:/* path: String - full path to OGV file */}"] spawn bis_fnc_playVideo;
-waitUntil {scriptDone _video};
-]]></content>
-	<tabTrigger>fnc</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<description>RGB Color</description>
-	<content><![CDATA[0.118,0.114,0.098]]></content>
-	<tabTrigger>RGB_GREEN_NATO</tabTrigger>
-	<scope>source.sqf, source.ext, source.c,source.hpp,source.cpp,source.c++pp, source.c,source.hpp,source.cpp,source.c++</scope>
-</snippet>

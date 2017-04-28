@@ -1,8 +1,0 @@
-<snippet>
-	<description>stop SILVIE Module</description>
-    <content><![CDATA[BIS_silvie_mainscope setvariable ["vehicleCount","0"];
-BIS_silvie_mainscope setvariable ["attempts",0];
-]]></content>
-    <tabTrigger>silvie</tabTrigger>
-    <scope>source.sqf</scope>
-</snippet>

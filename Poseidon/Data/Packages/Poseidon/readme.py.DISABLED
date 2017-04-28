@@ -1,6 +1,0 @@
-import webbrowser
-import sublime, sublime_plugin
-
-class readme_command(sublime_plugin.TextCommand):
-
-	def run(self):

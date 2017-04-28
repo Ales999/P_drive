@@ -1,7 +1,0 @@
-<snippet>
-	<description>if not local, exit</description>
-    <content><![CDATA[if !(local ${1:_myObject}) exitWith {/* exit if not local */};
-]]></content>
-    <tabTrigger>localOnly</tabTrigger>
-    <scope>source.sqf</scope>
-</snippet>

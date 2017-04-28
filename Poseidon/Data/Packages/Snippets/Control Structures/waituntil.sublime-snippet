@@ -1,6 +1,0 @@
-<snippet>
-	<description>waitUntil a condition is true</description>
-	<content><![CDATA[waitUntil {${0:/* my condition */}};]]></content>
-	<tabTrigger>waitUntil</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

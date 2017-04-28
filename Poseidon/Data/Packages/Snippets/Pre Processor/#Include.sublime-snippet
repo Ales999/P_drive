@@ -1,7 +1,0 @@
-<snippet>
-	<description>#include "filename"</description>
-    <content><![CDATA[#include "${1:${TM_FILENAME/\..+$/.hpp/}}"
-]]></content>
-    <tabTrigger>include</tabTrigger>
-    <scope>source.c, source.c++, source.sqf</scope>
-</snippet>

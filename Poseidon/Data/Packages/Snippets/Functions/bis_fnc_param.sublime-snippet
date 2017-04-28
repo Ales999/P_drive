@@ -1,6 +1,0 @@
-<snippet>
-	<description>Define script parameter</description>
-	<content><![CDATA[param [${1:index}, ${2:/*default value*/}, [${3:/*Allowed types*/}]];]]></content>
-	<tabTrigger>param</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>

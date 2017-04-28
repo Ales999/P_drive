@@ -1,2 +1,0 @@
-comment "Maximize range";
-c = ((src pixel [u,v]-min)/(max-min)) swizzle "rgb1"

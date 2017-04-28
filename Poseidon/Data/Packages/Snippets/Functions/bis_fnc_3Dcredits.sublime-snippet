@@ -1,7 +1,0 @@
-<snippet>
-	<description>Displays structured text in 3D world</description>
-	<content><![CDATA[["${1:/*Structured text*/}",getPos ${2:/*Object*/},20,1.5] spawn bis_fnc_3Dcredits;
-]]></content>
-	<tabTrigger>credits3D</tabTrigger>
-	<scope>source.sqf</scope>
-</snippet>
