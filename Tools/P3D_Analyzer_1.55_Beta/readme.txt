@@ -1,3 +1,0 @@
-P3D Analyzer was developed to help modelers to learn from other people's work. If your aim - is to change 3rd party's model or to use it or its parts without asking the model's author permission (i.e. theft of models) - this program is not for you.
-
-This software is provided 'as-is', without any express or implied warranty. Having launched this software you accept, that in no case the authors will be held liable for any damages arising from the use of this software.
